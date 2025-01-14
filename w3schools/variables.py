@@ -2,23 +2,29 @@ if __name__ == "__main__":
     ### declaring
     x = 6
     y = "Bailey"
+
     ### printing
     print(x)
     print(y)
+    
     ### changing variable data and type
     x = "Boone"
     print("{} {}".format(y, x))
+    
     ### casting
     a = str(3)
     b = int(3)
     c = float(3)
     print("{} {} {}".format(a,b,c))
+    
     ### type()
     for variable in [x, y, a, b, c]:
         print("{} is a {}".format(variable, type(variable)))
+    
     ### case sensitivity
     X = "Not Boone"
     print("{} {}".format(x, X))
+    
     ### naming conventions
     valid = "valid"
     _also = "valid"
@@ -30,16 +36,20 @@ if __name__ == "__main__":
     camelCase = "valid"
     PascalCase = "valid"
     snake_case = "valid"
+    
     ### many values to multiple variables
     m, n, o = "em", "en", "oh"
     print("{} {} {}".format(m,n,o))
+    
     ### one value to multiple variables
     p = q = r = "samesies"
     print("{} {} {}".format(p,q,r))
+    
     ### unpacking
     roles = ["Alice", "Bob", "Carol"]
     al, bo, ca = roles
     print("{} {} {}".format(al,bo,ca))
+    
     ### output variables
     i = "I"
     d = "didn't"
@@ -51,6 +61,7 @@ if __name__ == "__main__":
     t = 4
     print(g+t)
     print(t,i,g)
+    
     ### globals
     u = "global"
 
